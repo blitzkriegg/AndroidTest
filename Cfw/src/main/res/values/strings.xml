@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Cfw</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- EditText Hints -->
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">******</string>
+
+    <!-- Buttons/Labels -->
+    <string name="lbl_login">Login</string>
+
+    <!-- Events/Notifications -->
+    <string name="evt_loggingIn">Logging in ...</string>
+    <string name="evt_please_wait">Please wait ...</string>
+    <string name="evt_invalid_email">Invalid Email address provided</string>
+    <string name="evt_invalid_password">Incorrect Password</string>
+
+    <!-- HTTP Status Code messages -->
+    <string name="stat_msg_client_error">The client request failed. Client connection error occured.</string>
+    <string name="stat_msg_server_error">The server encountered an error which prevented it from fulfilling the request.</string>
+    <string name="stat_msg_uknown_error">Unknown error occured.</string>
+    <string name="stat_msg_no_response">Sorry, no response from server retrieved.</string>
+    <string name="stat_msg_network_prob">Sorry, network problem occurred.</string>
+    
+</resources>
