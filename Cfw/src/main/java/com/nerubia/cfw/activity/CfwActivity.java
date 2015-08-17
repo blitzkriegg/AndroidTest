@@ -2,9 +2,9 @@ package com.nerubia.cfw.activity;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 
+import com.nerubia.cfw.R;
 import com.nerubia.cfw.dialogs.CfwNoticeDialogFragment;
 import com.nerubia.cfw.view.ICfwView;
 
