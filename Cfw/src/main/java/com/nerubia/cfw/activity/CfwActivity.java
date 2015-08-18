@@ -63,9 +63,9 @@ public class CfwActivity extends AppCompatActivity implements ICfwView{
         }
     }
 
-    public void showNoticeDialog(String message, String tag){
-        CfwNoticeDialogFragment dialog = CfwNoticeDialogFragment.newInstance(R.string.app_name, message,
-                android.R.string.ok, -1, tag == null ? tag : tag);
+    public void showNoticeDialog(int title, String message, String tag){
+        CfwNoticeDialogFragment dialog = CfwNoticeDialogFragment.newInstance(title, message,
+                android.R.string.ok, -1, tag);
         dialog.show(getSupportFragmentManager(), tag);
     }
 
