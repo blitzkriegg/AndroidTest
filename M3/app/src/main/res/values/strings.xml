@@ -5,4 +5,8 @@
     <string name="button_forgotPassword">FORGOT PASSWORD</string>
     <string name="button_signUp">SIGN UP</string>
     <string name="title_activity_intro">IntroActivity</string>
+    <string name="login_editText_emailPlaceholder">Email Address</string>
+    <string name="login_editText_passwordPlaceholder">Password</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
