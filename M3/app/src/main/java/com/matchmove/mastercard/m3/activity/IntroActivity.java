@@ -28,8 +28,8 @@ public class IntroActivity extends AppCompatActivity {
     }
 
     public void initializeVariables(){
-        loginButton = (Button)findViewById(R.id.login_button_forgotPassword);
-        signUpButton = (Button)findViewById(R.id.login_button_signUp);
+        loginButton = (Button)findViewById(R.id.into_button_logIn);
+        signUpButton = (Button)findViewById(R.id.intro_button_signUp);
     }
 
     public void setupLoginButton(){
@@ -37,8 +37,7 @@ public class IntroActivity extends AppCompatActivity {
             new View.OnClickListener(){
                 @Override
                 public void onClick(View v){
-                    Intent intent = new Intent();
-                    intent.setAction("com.matchmove.mastercard.m3.login");
+                    Intent intent = new Intent(IntroActivity.this , LoginActivity.class);
                     startActivity(intent);
                 }
             }
@@ -50,7 +49,8 @@ public class IntroActivity extends AppCompatActivity {
             new View.OnClickListener(){
                 @Override
                 public void onClick(View v){
-                    //go to register page
+                    Intent intent = new Intent(IntroActivity.this , SignUpActivity.class);
+                    startActivity(intent);
                 }
             }
         );

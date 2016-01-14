@@ -2,11 +2,14 @@
     <string name="app_name">M3</string>
     <string name="action_settings">Settings</string>
     <string name="button_login">LOGIN</string>
-    <string name="button_forgotPassword">FORGOT PASSWORD</string>
-    <string name="button_signUp">SIGN UP</string>
+    <string name="button_forgotPassword"><u>Forgot Password?</u></string>
+    <string name="button_signUp">Sign Up</string>
     <string name="title_activity_intro">IntroActivity</string>
     <string name="login_editText_emailPlaceholder">Email Address</string>
     <string name="login_editText_passwordPlaceholder">Password</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
